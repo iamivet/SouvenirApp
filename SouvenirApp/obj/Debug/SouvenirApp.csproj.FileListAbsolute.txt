@@ -13,3 +13,4 @@ D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\
 D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.exe
 D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.pdb
 D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Migrations.InitialCreate.resources
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Form1.resources
