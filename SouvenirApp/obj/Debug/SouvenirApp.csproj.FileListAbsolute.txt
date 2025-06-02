@@ -1,0 +1,15 @@
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\SouvenirApp.exe.config
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\SouvenirApp.exe
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\SouvenirApp.pdb
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.dll
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.xml
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.AssemblyReference.cache
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Properties.Resources.resources
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.GenerateResource.cache
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.CoreCompileInputs.cache
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\Souvenir.28326204.Up2Date
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.exe
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.pdb
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Migrations.InitialCreate.resources
