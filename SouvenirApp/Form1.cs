@@ -26,5 +26,17 @@ namespace SouvenirApp
         {
 
         }
+
+        private void btnChangeOrRemove_Click(object sender, EventArgs e)
+        {
+            btnAdd.Visible = false;
+            btnChangeOrRemove.Visible = false;
+            btnSeeAll.Visible = false;
+
+            btnChange.Visible = true;
+            btnRemove.Visible = true;
+            lblId.Visible = true;
+            txtId.Visible = true;
+        }
     }
 }

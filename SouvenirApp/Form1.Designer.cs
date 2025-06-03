@@ -41,6 +41,10 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.btnChange = new System.Windows.Forms.Button();
+            this.btnChangeOrRemove = new System.Windows.Forms.Button();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
+            this.btnSeeAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -151,7 +155,7 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(29, 302);
+            this.btnAdd.Location = new System.Drawing.Point(29, 338);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(343, 54);
             this.btnAdd.TabIndex = 9;
@@ -164,12 +168,13 @@
             this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnRemove.ForeColor = System.Drawing.Color.White;
-            this.btnRemove.Location = new System.Drawing.Point(29, 521);
+            this.btnRemove.Location = new System.Drawing.Point(29, 507);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(343, 54);
             this.btnRemove.TabIndex = 10;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = false;
+            this.btnRemove.Visible = false;
             // 
             // btnChange
             // 
@@ -177,12 +182,64 @@
             this.btnChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChange.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnChange.ForeColor = System.Drawing.Color.White;
-            this.btnChange.Location = new System.Drawing.Point(29, 410);
+            this.btnChange.Location = new System.Drawing.Point(29, 425);
             this.btnChange.Name = "btnChange";
             this.btnChange.Size = new System.Drawing.Size(343, 54);
             this.btnChange.TabIndex = 11;
             this.btnChange.Text = "Change";
             this.btnChange.UseVisualStyleBackColor = false;
+            this.btnChange.Visible = false;
+            // 
+            // btnChangeOrRemove
+            // 
+            this.btnChangeOrRemove.BackColor = System.Drawing.Color.OliveDrab;
+            this.btnChangeOrRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangeOrRemove.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnChangeOrRemove.ForeColor = System.Drawing.Color.White;
+            this.btnChangeOrRemove.Location = new System.Drawing.Point(29, 425);
+            this.btnChangeOrRemove.Name = "btnChangeOrRemove";
+            this.btnChangeOrRemove.Size = new System.Drawing.Size(343, 54);
+            this.btnChangeOrRemove.TabIndex = 12;
+            this.btnChangeOrRemove.Text = "Change or Remove";
+            this.btnChangeOrRemove.UseVisualStyleBackColor = false;
+            this.btnChangeOrRemove.Click += new System.EventHandler(this.btnChangeOrRemove_Click);
+            // 
+            // txtId
+            // 
+            this.txtId.BackColor = System.Drawing.Color.White;
+            this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtId.Location = new System.Drawing.Point(144, 349);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(132, 34);
+            this.txtId.TabIndex = 14;
+            this.txtId.Visible = false;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.BackColor = System.Drawing.Color.MintCream;
+            this.lblId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblId.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblId.Location = new System.Drawing.Point(103, 349);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(35, 28);
+            this.lblId.TabIndex = 13;
+            this.lblId.Text = "Id:";
+            this.lblId.Visible = false;
+            // 
+            // btnSeeAll
+            // 
+            this.btnSeeAll.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnSeeAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeeAll.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnSeeAll.ForeColor = System.Drawing.Color.White;
+            this.btnSeeAll.Location = new System.Drawing.Point(29, 507);
+            this.btnSeeAll.Name = "btnSeeAll";
+            this.btnSeeAll.Size = new System.Drawing.Size(343, 54);
+            this.btnSeeAll.TabIndex = 15;
+            this.btnSeeAll.Text = "See all souvenirs";
+            this.btnSeeAll.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -192,6 +249,10 @@
             this.BackgroundImage = global::SouvenirApp.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 619);
+            this.Controls.Add(this.btnSeeAll);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
+            this.Controls.Add(this.btnChangeOrRemove);
             this.Controls.Add(this.btnChange);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnAdd);
@@ -229,6 +290,10 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.Button btnChange;
+        private System.Windows.Forms.Button btnChangeOrRemove;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.Button btnSeeAll;
     }
 }
 
