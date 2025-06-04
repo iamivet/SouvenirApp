@@ -45,7 +45,7 @@ namespace SouvenirApp.Controllers
             findedSouvenir.TypeId = souvenir.TypeId;
 
 
-            dbContext.SaveChanges();
+            dbContext.SaveChange
 
         }
     
