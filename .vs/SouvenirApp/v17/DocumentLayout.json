@@ -1,33 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\",
+  "WorkspaceRootPath": "C:\\Ivet11a\\SouvenirApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|d:\\programming\\1.c#\\\u043C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\souvenirapp\\souvenirapp\\controllers\\souvenircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|c:\\ivet11a\\souvenirapp\\souvenirapp\\controllers\\souvenircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:souvenirapp\\controllers\\souvenircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\souvenirapp\\data\\souvenirappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:souvenirapp\\data\\souvenirappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:SouvenirApp\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|d:\\programming\\1.c#\\\u043C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\souvenirapp\\souvenirapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\Models\\SouvenirType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:SouvenirApp\\Data\\Models\\SouvenirType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\Models\\Souvenir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:SouvenirApp\\Data\\Models\\Souvenir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\SouvenirAppContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:SouvenirApp\\Data\\SouvenirAppContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|C:\\Ivet11a\\SouvenirApp\\souvenirapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:souvenirapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\souvenirapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:souvenirapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SouvenirApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\souvenirapp\\data\\models\\souvenir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:souvenirapp\\data\\models\\souvenir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\souvenirapp\\data\\models\\souvenirtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E043B61-56FF-4072-933C-D0F7FFBB906E}|SouvenirApp\\SouvenirApp.csproj|solutionrelative:souvenirapp\\data\\models\\souvenirtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,17 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SouvenirController.cs",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Controllers\\SouvenirController.cs",
+              "DocumentMoniker": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Controllers\\SouvenirController.cs",
               "RelativeDocumentMoniker": "SouvenirApp\\Controllers\\SouvenirController.cs",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Controllers\\SouvenirController.cs",
+              "ToolTip": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Controllers\\SouvenirController.cs",
               "RelativeToolTip": "SouvenirApp\\Controllers\\SouvenirController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T13:47:05.759Z",
               "EditorCaption": ""
@@ -55,21 +72,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SouvenirApp",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\SouvenirApp.csproj",
-              "RelativeDocumentMoniker": "SouvenirApp\\SouvenirApp.csproj",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\SouvenirApp.csproj",
-              "RelativeToolTip": "SouvenirApp\\SouvenirApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-02T19:29:45.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "SouvenirAppContext.cs",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Data\\SouvenirAppContext.cs",
+              "DocumentMoniker": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\SouvenirAppContext.cs",
               "RelativeDocumentMoniker": "SouvenirApp\\Data\\SouvenirAppContext.cs",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Data\\SouvenirAppContext.cs",
+              "ToolTip": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\SouvenirAppContext.cs",
               "RelativeToolTip": "SouvenirApp\\Data\\SouvenirAppContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -78,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Form1.cs",
               "RelativeDocumentMoniker": "SouvenirApp\\Form1.cs",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Form1.cs [Design]",
+              "ToolTip": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Form1.cs [Design]",
               "RelativeToolTip": "SouvenirApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T19:47:05.5Z",
@@ -90,40 +96,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Form1.cs",
               "RelativeDocumentMoniker": "SouvenirApp\\Form1.cs",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Form1.cs",
+              "ToolTip": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Form1.cs",
               "RelativeToolTip": "SouvenirApp\\Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAjwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAD4vyIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T14:22:30.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "SouvenirType.cs",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Data\\Models\\SouvenirType.cs",
+              "DocumentMoniker": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\Models\\SouvenirType.cs",
               "RelativeDocumentMoniker": "SouvenirApp\\Data\\Models\\SouvenirType.cs",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Data\\Models\\SouvenirType.cs",
+              "ToolTip": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\Models\\SouvenirType.cs",
               "RelativeToolTip": "SouvenirApp\\Data\\Models\\SouvenirType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:32:47.013Z"
+              "WhenOpened": "2025-06-02T13:32:47.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Souvenir.cs",
-              "DocumentMoniker": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Data\\Models\\Souvenir.cs",
+              "DocumentMoniker": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\Models\\Souvenir.cs",
               "RelativeDocumentMoniker": "SouvenirApp\\Data\\Models\\Souvenir.cs",
-              "ToolTip": "D:\\Programming\\1.C#\\\u041C\u043E\u0438\u0442\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u0438\\SouvenirApp\\SouvenirApp\\Data\\Models\\Souvenir.cs",
+              "ToolTip": "C:\\Ivet11a\\SouvenirApp\\SouvenirApp\\Data\\Models\\Souvenir.cs",
               "RelativeToolTip": "SouvenirApp\\Data\\Models\\Souvenir.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:26:32.719Z"
+              "WhenOpened": "2025-06-02T13:26:32.719Z",
+              "EditorCaption": ""
             }
           ]
         }

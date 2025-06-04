@@ -14,3 +14,20 @@ D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\
 D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.pdb
 D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Migrations.InitialCreate.resources
 D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Form1.resources
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\SouvenirApp.exe.config
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\SouvenirApp.exe
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\SouvenirApp.pdb
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.dll
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.xml
+C:\Ivet11a\SouvenirApp\SouvenirApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.AssemblyReference.cache
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.exe.config
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Form1.resources
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Migrations.InitialCreate.resources
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.Properties.Resources.resources
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.GenerateResource.cache
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.CoreCompileInputs.cache
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\Souvenir.28326204.Up2Date
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.exe
+C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.pdb
