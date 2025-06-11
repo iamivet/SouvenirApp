@@ -1,8 +1,8 @@
-﻿using SouvenirApp.Data.Models;
-using System.Data.Entity;
-
-namespace SouvenirApp.Data
+﻿namespace SouvenirApp.Data
 {
+    using SouvenirApp.Data.Models;
+    using System.Data.Entity;
+
     public class SouvenirAppContext : DbContext
     {
         public SouvenirAppContext() : base("Shoesmag")
