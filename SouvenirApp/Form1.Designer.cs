@@ -44,7 +44,6 @@
             this.btnChangeOrRemove = new System.Windows.Forms.Button();
             this.txtId = new System.Windows.Forms.TextBox();
             this.lblId = new System.Windows.Forms.Label();
-            this.btnSeeAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -53,9 +52,10 @@
             this.lblName.BackColor = System.Drawing.Color.MintCream;
             this.lblName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblName.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblName.Location = new System.Drawing.Point(12, 47);
+            this.lblName.Location = new System.Drawing.Point(121, 35);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(73, 28);
+            this.lblName.Size = new System.Drawing.Size(60, 21);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Name:";
             // 
@@ -64,9 +64,10 @@
             this.txtName.BackColor = System.Drawing.Color.White;
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtName.Location = new System.Drawing.Point(91, 43);
+            this.txtName.Location = new System.Drawing.Point(180, 32);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(132, 34);
+            this.txtName.Size = new System.Drawing.Size(100, 29);
             this.txtName.TabIndex = 1;
             // 
             // txtPrice
@@ -74,9 +75,10 @@
             this.txtPrice.BackColor = System.Drawing.Color.White;
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrice.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtPrice.Location = new System.Drawing.Point(323, 47);
+            this.txtPrice.Location = new System.Drawing.Point(354, 35);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(138, 30);
+            this.txtPrice.Size = new System.Drawing.Size(104, 26);
             this.txtPrice.TabIndex = 3;
             // 
             // lblPrice
@@ -85,9 +87,10 @@
             this.lblPrice.BackColor = System.Drawing.Color.MintCream;
             this.lblPrice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPrice.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblPrice.Location = new System.Drawing.Point(253, 49);
+            this.lblPrice.Location = new System.Drawing.Point(302, 37);
+            this.lblPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(64, 28);
+            this.lblPrice.Size = new System.Drawing.Size(52, 21);
             this.lblPrice.TabIndex = 2;
             this.lblPrice.Text = "Price:";
             // 
@@ -97,9 +100,10 @@
             this.lblType.BackColor = System.Drawing.Color.MintCream;
             this.lblType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblType.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblType.Location = new System.Drawing.Point(473, 49);
+            this.lblType.Location = new System.Drawing.Point(467, 37);
+            this.lblType.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(62, 28);
+            this.lblType.Size = new System.Drawing.Size(50, 21);
             this.lblType.TabIndex = 4;
             this.lblType.Text = "Type:";
             this.lblType.Click += new System.EventHandler(this.lblType_Click);
@@ -109,9 +113,10 @@
             this.cmbTypes.BackColor = System.Drawing.Color.White;
             this.cmbTypes.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTypes.FormattingEnabled = true;
-            this.cmbTypes.Location = new System.Drawing.Point(541, 47);
+            this.cmbTypes.Location = new System.Drawing.Point(518, 35);
+            this.cmbTypes.Margin = new System.Windows.Forms.Padding(2);
             this.cmbTypes.Name = "cmbTypes";
-            this.cmbTypes.Size = new System.Drawing.Size(183, 31);
+            this.cmbTypes.Size = new System.Drawing.Size(138, 27);
             this.cmbTypes.TabIndex = 5;
             // 
             // lblDescription
@@ -120,9 +125,10 @@
             this.lblDescription.BackColor = System.Drawing.Color.MintCream;
             this.lblDescription.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblDescription.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblDescription.Location = new System.Drawing.Point(12, 126);
+            this.lblDescription.Location = new System.Drawing.Point(9, 102);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(126, 28);
+            this.lblDescription.Size = new System.Drawing.Size(102, 21);
             this.lblDescription.TabIndex = 6;
             this.lblDescription.Text = "Description:";
             // 
@@ -131,11 +137,12 @@
             this.txtDescription.BackColor = System.Drawing.Color.White;
             this.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDescription.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtDescription.Location = new System.Drawing.Point(144, 114);
+            this.txtDescription.Location = new System.Drawing.Point(108, 93);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(2);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescription.Size = new System.Drawing.Size(600, 114);
+            this.txtDescription.Size = new System.Drawing.Size(612, 93);
             this.txtDescription.TabIndex = 7;
             // 
             // lstbSouvenirs
@@ -143,10 +150,11 @@
             this.lstbSouvenirs.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lstbSouvenirs.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lstbSouvenirs.FormattingEnabled = true;
-            this.lstbSouvenirs.ItemHeight = 23;
-            this.lstbSouvenirs.Location = new System.Drawing.Point(437, 295);
+            this.lstbSouvenirs.ItemHeight = 19;
+            this.lstbSouvenirs.Location = new System.Drawing.Point(301, 240);
+            this.lstbSouvenirs.Margin = new System.Windows.Forms.Padding(2);
             this.lstbSouvenirs.Name = "lstbSouvenirs";
-            this.lstbSouvenirs.Size = new System.Drawing.Size(307, 280);
+            this.lstbSouvenirs.Size = new System.Drawing.Size(444, 213);
             this.lstbSouvenirs.TabIndex = 8;
             // 
             // btnAdd
@@ -155,12 +163,14 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(29, 338);
+            this.btnAdd.Location = new System.Drawing.Point(22, 275);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(343, 54);
+            this.btnAdd.Size = new System.Drawing.Size(257, 44);
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnRemove
             // 
@@ -168,9 +178,10 @@
             this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnRemove.ForeColor = System.Drawing.Color.White;
-            this.btnRemove.Location = new System.Drawing.Point(29, 507);
+            this.btnRemove.Location = new System.Drawing.Point(22, 412);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(343, 54);
+            this.btnRemove.Size = new System.Drawing.Size(257, 44);
             this.btnRemove.TabIndex = 10;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = false;
@@ -182,9 +193,10 @@
             this.btnChange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChange.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnChange.ForeColor = System.Drawing.Color.White;
-            this.btnChange.Location = new System.Drawing.Point(29, 425);
+            this.btnChange.Location = new System.Drawing.Point(22, 345);
+            this.btnChange.Margin = new System.Windows.Forms.Padding(2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(343, 54);
+            this.btnChange.Size = new System.Drawing.Size(257, 44);
             this.btnChange.TabIndex = 11;
             this.btnChange.Text = "Change";
             this.btnChange.UseVisualStyleBackColor = false;
@@ -196,9 +208,10 @@
             this.btnChangeOrRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChangeOrRemove.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnChangeOrRemove.ForeColor = System.Drawing.Color.White;
-            this.btnChangeOrRemove.Location = new System.Drawing.Point(29, 425);
+            this.btnChangeOrRemove.Location = new System.Drawing.Point(22, 345);
+            this.btnChangeOrRemove.Margin = new System.Windows.Forms.Padding(2);
             this.btnChangeOrRemove.Name = "btnChangeOrRemove";
-            this.btnChangeOrRemove.Size = new System.Drawing.Size(343, 54);
+            this.btnChangeOrRemove.Size = new System.Drawing.Size(257, 44);
             this.btnChangeOrRemove.TabIndex = 12;
             this.btnChangeOrRemove.Text = "Change or Remove";
             this.btnChangeOrRemove.UseVisualStyleBackColor = false;
@@ -209,9 +222,10 @@
             this.txtId.BackColor = System.Drawing.Color.White;
             this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtId.Location = new System.Drawing.Point(144, 349);
+            this.txtId.Location = new System.Drawing.Point(119, 284);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(132, 34);
+            this.txtId.Size = new System.Drawing.Size(100, 29);
             this.txtId.TabIndex = 14;
             this.txtId.Visible = false;
             // 
@@ -221,35 +235,22 @@
             this.lblId.BackColor = System.Drawing.Color.MintCream;
             this.lblId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblId.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblId.Location = new System.Drawing.Point(103, 349);
+            this.lblId.Location = new System.Drawing.Point(77, 284);
+            this.lblId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(35, 28);
+            this.lblId.Size = new System.Drawing.Size(29, 21);
             this.lblId.TabIndex = 13;
             this.lblId.Text = "Id:";
             this.lblId.Visible = false;
             // 
-            // btnSeeAll
-            // 
-            this.btnSeeAll.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnSeeAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeeAll.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnSeeAll.ForeColor = System.Drawing.Color.White;
-            this.btnSeeAll.Location = new System.Drawing.Point(29, 507);
-            this.btnSeeAll.Name = "btnSeeAll";
-            this.btnSeeAll.Size = new System.Drawing.Size(343, 54);
-            this.btnSeeAll.TabIndex = 15;
-            this.btnSeeAll.Text = "See all souvenirs";
-            this.btnSeeAll.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.BackgroundImage = global::SouvenirApp.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 619);
-            this.Controls.Add(this.btnSeeAll);
+            this.ClientSize = new System.Drawing.Size(756, 503);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.btnChangeOrRemove);
@@ -267,6 +268,7 @@
             this.Controls.Add(this.lblName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SouvenirApp";
@@ -293,7 +295,6 @@
         private System.Windows.Forms.Button btnChangeOrRemove;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label lblId;
-        private System.Windows.Forms.Button btnSeeAll;
     }
 }
 

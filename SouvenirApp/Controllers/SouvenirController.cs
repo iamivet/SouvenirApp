@@ -9,7 +9,9 @@
         private SouvenirAppContext dbContext = new SouvenirAppContext();
 
         public List<Souvenir> GetAllSоuvenirs()
-           => dbContext.Souvenirs.Include("SouvenirTypes").ToList();
+           => dbContext.Souvenirs
+            .Include("Type")
+            .ToList();
 
         public void Create(Souvenir souvenir)
         {

@@ -31,3 +31,4 @@ C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.csproj.CoreCompileInput
 C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\Souvenir.28326204.Up2Date
 C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.exe
 C:\Ivet11a\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.pdb
+D:\Programming\1.C#\Моите проекти\SouvenirApp\SouvenirApp\obj\Debug\SouvenirApp.exe.config
