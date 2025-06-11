@@ -1,4 +1,4 @@
-﻿namespace SouvenirApp.Data.Models
+﻿namespace SouvenirApp.Data
 {
     using System.ComponentModel.DataAnnotations;
 

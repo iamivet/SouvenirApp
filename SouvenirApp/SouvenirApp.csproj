@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\SouvenirController.cs" />
+    <Compile Include="Controllers\SouvenirTypeController.cs" />
     <Compile Include="Data\SouvenirAppContext.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -67,8 +68,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\Models\Souvenir.cs" />
-    <Compile Include="Data\Models\SouvenirType.cs" />
+    <Compile Include="Data\Souvenir.cs" />
+    <Compile Include="Data\SouvenirType.cs" />
     <Compile Include="Migrations\202506021409375_InitialCreate.cs" />
     <Compile Include="Migrations\202506021409375_InitialCreate.Designer.cs">
       <DependentUpon>202506021409375_InitialCreate.cs</DependentUpon>

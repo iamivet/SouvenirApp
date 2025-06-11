@@ -1,7 +1,6 @@
 ﻿namespace SouvenirApp.Controllers
 {
     using SouvenirApp.Data;
-    using SouvenirApp.Data.Models;
     using System.Collections.Generic;
     using System.Linq;
 

@@ -1,6 +1,5 @@
 ﻿namespace SouvenirApp.Data
 {
-    using SouvenirApp.Data.Models;
     using System.Data.Entity;
 
     public class SouvenirAppContext : DbContext
