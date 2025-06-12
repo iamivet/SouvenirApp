@@ -44,6 +44,7 @@
             this.btnChangeOrRemove = new System.Windows.Forms.Button();
             this.txtId = new System.Windows.Forms.TextBox();
             this.lblId = new System.Windows.Forms.Label();
+            this.btnFind = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -163,7 +164,7 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(22, 275);
+            this.btnAdd.Location = new System.Drawing.Point(22, 287);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(257, 44);
@@ -186,6 +187,7 @@
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = false;
             this.btnRemove.Visible = false;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // btnChange
             // 
@@ -201,6 +203,7 @@
             this.btnChange.Text = "Change";
             this.btnChange.UseVisualStyleBackColor = false;
             this.btnChange.Visible = false;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // btnChangeOrRemove
             // 
@@ -222,7 +225,7 @@
             this.txtId.BackColor = System.Drawing.Color.White;
             this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtId.Location = new System.Drawing.Point(119, 284);
+            this.txtId.Location = new System.Drawing.Point(125, 240);
             this.txtId.Margin = new System.Windows.Forms.Padding(2);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 29);
@@ -235,13 +238,29 @@
             this.lblId.BackColor = System.Drawing.Color.MintCream;
             this.lblId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblId.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblId.Location = new System.Drawing.Point(77, 284);
+            this.lblId.Location = new System.Drawing.Point(77, 242);
             this.lblId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(29, 21);
             this.lblId.TabIndex = 13;
             this.lblId.Text = "Id:";
             this.lblId.Visible = false;
+            // 
+            // btnFind
+            // 
+            this.btnFind.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFind.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnFind.ForeColor = System.Drawing.Color.White;
+            this.btnFind.Location = new System.Drawing.Point(23, 287);
+            this.btnFind.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(257, 44);
+            this.btnFind.TabIndex = 15;
+            this.btnFind.Text = "Find";
+            this.btnFind.UseVisualStyleBackColor = false;
+            this.btnFind.Visible = false;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // Form1
             // 
@@ -251,6 +270,7 @@
             this.BackgroundImage = global::SouvenirApp.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(756, 503);
+            this.Controls.Add(this.btnFind);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.btnChangeOrRemove);
@@ -295,6 +315,7 @@
         private System.Windows.Forms.Button btnChangeOrRemove;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.Button btnFind;
     }
 }
 
