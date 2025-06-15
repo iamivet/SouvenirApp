@@ -119,6 +119,7 @@
             this.cmbTypes.Name = "cmbTypes";
             this.cmbTypes.Size = new System.Drawing.Size(138, 27);
             this.cmbTypes.TabIndex = 5;
+            this.cmbTypes.SelectedIndexChanged += new System.EventHandler(this.cmbTypes_SelectedIndexChanged);
             // 
             // lblDescription
             // 

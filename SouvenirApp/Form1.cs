@@ -25,9 +25,7 @@ namespace SouvenirApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            List<SouvenirType> allTypes = souvenirTypeController.GetAllSоuvenirTypes()
-;
-            cmbTypes.DataSource = allTypes;
+            LoadSouvenirTypes();
             cmbTypes.DisplayMember = "Name";
             cmbTypes.ValueMember = "Id";
 
@@ -75,6 +73,35 @@ namespace SouvenirApp
             if (!isValidPrice)
             {
                 MessageBox.Show("Въведете правелен формат на данните!");
+                return;
+            }
+
+
+           
+            if(!souvenirTypeController.IsExistThisType(cmbTypes.Text))
+            {
+                DialogResult result = MessageBox.Show("Това е нов вид сувенир. \n" +
+                    "Искаш ли да добавиш?", "Потвърждение", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    SouvenirType newSouvenirType = new SouvenirType()
+                    {
+                        Name = cmbTypes.Text
+                    };
+                    souvenirTypeController.Create(newSouvenirType);
+
+                    MessageBox.Show("Опитай пак след като си въвел новия вид");
+                    LoadSouvenirTypes();
+                    ClearScreen();
+                    return;
+
+                }
+                else
+                {
+                    MessageBox.Show("Изберете вид,който същестува!","Внимание",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    return;
+                }
             }
 
             Souvenir newSouvenir = new Souvenir();
@@ -88,6 +115,7 @@ namespace SouvenirApp
             souvenirController.Create(newSouvenir);
             MessageBox.Show("Записът е успешно добавен!");
             lstbSouvenirs.Items.Add($"{newSouvenir.Id}. {newSouvenir.Name} - Price: {newSouvenir.Price} Type:{newSouvenir.Type.Name}");
+
             ClearScreen();
             SeeAll(sender, e);
         }
@@ -108,13 +136,28 @@ namespace SouvenirApp
                 return;
             }
 
-            souvenirController.Delete(int.Parse(txtId.Text));
-            MessageBox.Show("Елементът е изтрит!");
+            DialogResult result = MessageBox.Show("Искаш ли да изтриеш този сувенир?", "Внимание", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            lstbSouvenirs.Items.RemoveAt(int.Parse(txtId.Text)-1);
-            SeeAll(sender, e);
+            if (result == DialogResult.Yes)
+            {
+               
+                souvenirController.Delete(int.Parse(txtId.Text));
+                MessageBox.Show("Елементът е изтрит!");
 
-            ChageVisible(true, true,false, false, false, false, false);
+                SeeAll(sender, e);
+                ChageVisible(true, true, false, false, false, false, false);
+                ClearScreen();
+                return;
+            }
+            else
+            {
+                MessageBox.Show("Елементът не е изтрит!", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                ChageVisible(true, true, false, false, false, false, false);
+                ClearScreen();
+                return;
+            }
+
+            ClearScreen();
         }
 
         private void btnFind_Click(object sender, EventArgs e)
@@ -164,6 +207,7 @@ namespace SouvenirApp
 
             SeeAll(sender, e);
             ChageVisible(true, true, false, false, false, false, false);
+            ClearScreen();
         }
 
         public bool IsValidId()
@@ -210,6 +254,18 @@ namespace SouvenirApp
             lblId.Visible = lblIdVisiable;
             txtId.Visible = txtIdVisible;
 ;
+        }
+
+        private void cmbTypes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void LoadSouvenirTypes()
+        {
+            List<SouvenirType> allTypes = souvenirTypeController.GetAllSоuvenirTypes()
+;
+            cmbTypes.DataSource = allTypes;
         }
     }
 }

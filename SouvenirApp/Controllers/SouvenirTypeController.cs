@@ -30,6 +30,7 @@ namespace SouvenirApp.Controllers
             return findedSouvenirType;
         }
 
-       
+       public bool IsExistThisType(string name)
+            => dbContext.SouvenirTypes.Any(t => t.Name == name);
     }
 }

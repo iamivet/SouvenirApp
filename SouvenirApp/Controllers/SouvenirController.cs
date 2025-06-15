@@ -55,10 +55,6 @@
             dbContext.Souvenirs.Remove(findedSouvenir);
             dbContext.SaveChanges();
         }
-        public int FirstId()
-           => dbContext.SouvenirTypes.First().Id;
-
-        public int LastId()
-            => dbContext.SouvenirTypes.OrderByDescending(st => st.Id).First().Id;
+       
     }
 }
